@@ -81,7 +81,7 @@ Environment variables used in the project can be configured in the `docker-compo
 
 ![Rabbit Queue](img/rabbit.png)
 
-*Img.3 Rabbit Queue should be available at http://127.0.0.1:15672/*
+*Img.3 Rabbit Queues should be available at http://127.0.0.1:15672/*
 
 ### Cleanup
 
