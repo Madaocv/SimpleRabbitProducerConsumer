@@ -1,0 +1,9 @@
+FROM python:3.8-slim
+RUN pip install aio-pika
+RUN mkdir -p /logs
+COPY consumer_aio_pika.py /consumer_aio_pika.py
+# Since the producer and the consumer rise faster than the queue, it is required to make them wait
+COPY wait-for-it.sh /wait-for-it.sh
+RUN chmod +x /wait-for-it.sh
+WORKDIR /
+CMD ["/wait-for-it.sh", "rabbitmq:5672", "-t", "60", "--", "python", "/consumer_aio_pika.py"]
