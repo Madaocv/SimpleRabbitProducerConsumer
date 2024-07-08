@@ -5,15 +5,15 @@ This project demonstrates the use of RabbitMQ with asynchronous Python consumers
 *General Workflow*
 
 #### Table of Contents
-- [SimpleRabbitProducerConsumer README](#simplerabbitproducerconsumer-readme)
-      - [Table of Contents](#table-of-contents)
-    - [Project Structure](#project-structure)
-    - [Prerequisites](#prerequisites)
-    - [Setup and Installation](#setup-and-installation)
-    - [Running the Project](#running-the-project)
-    - [Viewing Logs](#viewing-logs)
-    - [Configuration](#configuration)
-    - [Cleanup](#cleanup)
+[SimpleRabbitProducerConsumer README](#simplerabbitproducerconsumer-readme)
+[Table of Contents](#table-of-contents)
+[Project Structure](#project-structure)
+[Prerequisites](#prerequisites)
+[Setup and Installation](#setup-and-installation)
+[Running the Project](#running-the-project)
+[Viewing Logs](#viewing-logs)
+[Configuration](#configuration)
+[Cleanup](#cleanup)
 
 ### Project Structure
 
