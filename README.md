@@ -3,7 +3,7 @@
 This project demonstrates the use of RabbitMQ with asynchronous Python consumers and producers using the `aio-pika` library. The setup involves Docker containers for RabbitMQ, the producer, and the consumer.
 ![General Workflow](img/workflow.png)
 
-*General Workflow*
+*Img.1 General Workflow*
 
 ### Project Structure
 
@@ -48,7 +48,7 @@ SimpleRabbitProducerConsumer/
    ```
 
    ![Logs Example](img/logs.png)
-   *Logs Example*
+   *Img.2 Logs Example*
 
    1.2 Or Background mode: Runs all containers in the background (detached mode).
    ```sh
