@@ -37,18 +37,19 @@ SimpleRabbitProducerConsumer/
 ### Running the Project
 
 1. **Start the services:**
-   1.1 Front mode: Runs all containers in the foreground.
+   
    ```sh
    docker-compose up
    ```
-
+   Front mode: Runs all containers in the foreground.
    ![Logs Example](img/logs.png)
    *Img.2 Logs Example*
 
-   1.2 Or Background mode: Runs all containers in the background (detached mode).
+   
    ```sh
    docker-compose up -d
    ```
+   Or Background mode: Runs all containers in the background (detached mode).
 2. The `wait-for-it.sh` script ensures that the producer and consumer wait for RabbitMQ to be fully ready before attempting to connect.
 
 ### Viewing Logs
