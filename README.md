@@ -1,13 +1,18 @@
 # SimpleRabbitProducerConsumer README 
 
 This project demonstrates the use of RabbitMQ with asynchronous Python consumers and producers using the `aio-pika` library. The setup involves Docker containers for RabbitMQ, the producer, and the consumer.
-![General Workflow](img/workflow.png)
+![General Workflow]
+(img/workflow.png)
+
 *General Workflow*
 
 #### Table of Contents
 [SimpleRabbitProducerConsumer README](#simplerabbitproducerconsumer-readme)
+
 [Table of Contents](#table-of-contents)
+
 [Project Structure](#project-structure)
+
 [Prerequisites](#prerequisites)
 [Setup and Installation](#setup-and-installation)
 [Running the Project](#running-the-project)
