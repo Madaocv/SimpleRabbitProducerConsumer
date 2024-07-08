@@ -24,9 +24,11 @@ SimpleRabbitProducerConsumer/
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/yourusername/SimpleRabbitProducerConsumer.git
+   ```
+   
+   ```sh
    cd SimpleRabbitProducerConsumer
    ```
-
 2. **Ensure Docker is running.**
 
 3. **Build the Docker images:**
