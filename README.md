@@ -18,11 +18,6 @@ SimpleRabbitProducerConsumer/
 └── wait-for-it.sh
 ```
 
-### Prerequisites
-
-- Docker
-- Docker Compose
-- Python 3.8+
 
 ### Setup and Installation
 
