@@ -79,6 +79,9 @@ Environment variables used in the project can be configured in the `docker-compo
 - `RABBIT_MQ_PASSWORD`: RabbitMQ password (default: `guest`)
 - `PUBLISH_DELAY`: Delay between message publications by the producer (default: `5` seconds)
 
+![Rabbit Queue](img/rabbit.png)
+
+*Img.3 Rabbit Queue should be available at http://127.0.0.1:15672/*
 
 ### Cleanup
 
