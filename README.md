@@ -23,9 +23,9 @@ SimpleRabbitProducerConsumer/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/SimpleRabbitProducerConsumer.git
+   git clone https://github.com/Madaocv/SimpleRabbitProducerConsumer.git
    ```
-   
+
    ```sh
    cd SimpleRabbitProducerConsumer
    ```
